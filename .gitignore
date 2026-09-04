@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.env
+.env.local
+
+# Django
+db.sqlite3
+staticfiles/
+media/
+
+# Docker / compose
+pgdata/
+.docker/
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

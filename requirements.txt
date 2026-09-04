@@ -1,0 +1,3 @@
+PyQt5>=5.15
+websockets>=12.0
+httpx>=0.27
