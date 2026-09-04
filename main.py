@@ -37,7 +37,7 @@ TIPOS_OBRIGATORIOS = ("BOTA", "JAQUETA", "CAPACETE", "LUVA", "OCULOS")
 SLOT_CONFIG = {
     "BOTA":     {"imagem": "bota.png",     "emoji": "🥾"},
     "JAQUETA":  {"imagem": "jaqueta.png",  "emoji": "🧥"},
-    "CAPACETE": {"imagem": "capacete.png", "emoji": "⛑️"},
+    "CAPACETE": {"imagem": "capacete.png", "emoji": "👷"},
     "LUVA":     {"imagem": "luva.png",     "emoji": "🧤"},
     "OCULOS":   {"imagem": "oculos.png",   "emoji": "🥽"},
     "OUTRO":    {"imagem": None,           "emoji": "📦"},
