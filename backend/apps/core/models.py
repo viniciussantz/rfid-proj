@@ -28,9 +28,13 @@ class Colaborador(TimestampedModel):
 
 class PecaEPI(TimestampedModel):
     class Tipo(models.TextChoices):
-        BOTA = "BOTA", "Bota"
+        BOTA = "BOTA", "Bota (Genérica)"
+        BOTA_ESQ = "BOTA_ESQ", "Bota Esquerda"
+        BOTA_DIR = "BOTA_DIR", "Bota Direita"
+        CALCA = "CALCA", "Calça"
         JAQUETA = "JAQUETA", "Jaqueta"
         CAPACETE = "CAPACETE", "Capacete"
+        CRACHA = "CRACHA", "Crachá"
         LUVA = "LUVA", "Luva"
         OCULOS = "OCULOS", "Óculos"
         OUTRO = "OUTRO", "Outro"

@@ -24,7 +24,7 @@ u.is_superuser = True
 if created or not u.has_usable_password():
     u.set_password('${DJANGO_SUPERUSER_PASSWORD}')
 u.save()
-print('superuser ok' if created else 'superuser já existia; senha resetada se estava vazia')
+print('superuser ok' if created else 'superuser jÃ¡ existia; senha resetada se estava vazia')
 "
 fi
 
